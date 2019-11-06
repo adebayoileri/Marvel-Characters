@@ -26,5 +26,12 @@ export const character = [
     src:
       "https://terrigen-cdn-dev.marvel.com/content/prod/1x/007blp_ons_crd_02.jpg",
     detail: "King Of Wakanda"
+  },
+  {
+    id: 4,
+    name: "Spider Man",
+    src:
+      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/005smp_ons_crd_02.jpg",
+    detail: "Your Friendly neighbourhood spiderman"
   }
 ];
