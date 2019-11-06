@@ -9,6 +9,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <h1 className="tc dark-red f1">Marvel Characters</h1>
         <Card
           id={character[0].id}
           name={character[0].name}
@@ -20,6 +21,12 @@ class App extends Component {
           name={character[1].name}
           detail={character[1].detail}
           img={character[1].src}
+        />
+        <Card
+          id={character[2].id}
+          name={character[2].name}
+          detail={character[2].detail}
+          img={character[2].src}
         />
       </React.Fragment>
     );
