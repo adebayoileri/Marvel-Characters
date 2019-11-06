@@ -12,5 +12,12 @@ export const character = [
     src:
       "https://terrigen-cdn-dev.marvel.com/content/prod/1x/021slq_ons_crd_02.jpg",
     detail: "Lord Of The Galaxies"
+  },
+  {
+    id: 3,
+    name: "Captain Marvel",
+    src:
+      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/008cmv_ons_crd_04.jpg",
+    detail: "Queen Of The Galaxies"
   }
 ];
