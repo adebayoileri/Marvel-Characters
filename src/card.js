@@ -8,9 +8,9 @@ const Card = props => {
         src={`https://terrigen-cdn-dev.marvel.com/content/prod/1x/021slq_ons_crd_02.jpg`}
         alt="hero_image"
       />
-      <div className="bg-dark-red card-text">
-        <h2>{name}</h2>
-        <p>{detail}</p>
+      <div className="bg-black hover-bg-dark-red bg-animate card-text">
+        <h2 className="tc f2 white">{name}</h2>
+        <p className="tc white">{detail}</p>
       </div>
     </div>
   );
