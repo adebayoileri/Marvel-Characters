@@ -28,6 +28,12 @@ class App extends Component {
           detail={character[2].detail}
           img={character[2].src}
         />
+        <Card
+          id={character[3].id}
+          name={character[3].name}
+          detail={character[3].detail}
+          img={character[3].src}
+        />
       </React.Fragment>
     );
   }

@@ -19,5 +19,12 @@ export const character = [
     src:
       "https://terrigen-cdn-dev.marvel.com/content/prod/1x/008cmv_ons_crd_04.jpg",
     detail: "Queen Of The Galaxies"
+  },
+  {
+    id: 4,
+    name: "Black Panther",
+    src:
+      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/007blp_ons_crd_02.jpg",
+    detail: "King Of Wakanda"
   }
 ];

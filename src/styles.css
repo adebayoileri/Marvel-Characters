@@ -4,8 +4,25 @@
 }
 .card {
   width: 370px;
+  background: black;
   border-radius: 8px;
+  clip-path: polygon(
+    0% 0,
+    0px 0%,
+    calc(100% - 20px) 0%,
+    100% 20px,
+    100% calc(100% - 0px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    0 calc(100% - 20px)
+  );
 }
 .card img {
   width: 100%;
+  border-bottom: 15px solid red;
+}
+.card-text {
+  padding: 15px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
 }
