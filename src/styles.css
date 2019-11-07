@@ -2,3 +2,37 @@
   font-family: sans-serif;
   text-align: center;
 }
+header {
+  margin-top: 0;
+  left: 0;
+  background: black;
+  padding: 1em;
+}
+.card {
+  width: 300px;
+  background: black;
+  border-radius: 8px;
+  clip-path: polygon(
+    0% 0,
+    0px 0%,
+    calc(100% - 20px) 0%,
+    100% 20px,
+    100% calc(100% - 0px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    0 calc(100% - 20px)
+  );
+}
+.card img {
+  width: 100%;
+  border-bottom: 15px solid red;
+}
+.card-text {
+  padding: 15px;
+}
+.logo {
+  position: absolute;
+  margin-left: 40%;
+  margin-right: 40%;
+  transform: translate(50%, -50%);
+}
