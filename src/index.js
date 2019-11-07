@@ -4,6 +4,7 @@ import "tachyons";
 import Card from "./card";
 import { character } from "./characters";
 import "./styles.css";
+import SearchBox from "./SearchBox";
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
           </svg>
           <h1 className="tc dark-red f1">Marvel Characters</h1>
         </header>
+        <SearchBox />
         <Card
           id={character[0].id}
           name={character[0].name}
